@@ -4,13 +4,12 @@ const Home = () => (
   <div className="container">
     <Head>
       <title>JobApp</title>
-      <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to JobApp!
+        Welcome to JobApp
       </h1>
 
       <p className="description">
