@@ -1,25 +1,22 @@
-import Head from 'next/head'
+import React from 'react'
+import Login from './Login/Login'
 
 const Home = () => (
   <div className="container">
-    <Head>
+    <head>
       <title>JobApp</title>
       <link rel="icon" href="/favicon.ico" />
-    </Head>
+    </head>
 
     <main>
-      <h1 className="title">
-        Welcome to JobApp
-      </h1>
-
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
-    </main>
-
-    <footer>
+      <header>
+        This is Header!
+      </header>
+      <Login />
+      <footer>
       This is a footer!
     </footer>
+    </main>
   </div>
 )
 export default Home
