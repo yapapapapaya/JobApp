@@ -1,22 +1,18 @@
 import React from 'react'
-import Login from './Login/Login'
+import Link from 'next/link'
 
-const Home = () => (
-  <div className="container">
-    <head>
-      <title>JobApp</title>
-      <link rel="icon" href="/favicon.ico" />
-    </head>
-
-    <main>
-      <header>
-        This is Header!
-      </header>
-      <Login />
-      <footer>
-      This is a footer!
-    </footer>
-    </main>
-  </div>
-)
+const Home = () => {
+  console.log('this is index page')
+  return (
+    <div className="container">
+      <main>
+        <h1>
+          This is Landing Page
+        </h1>
+          <p><Link href={'/login/login'}>Login</Link></p>
+      </main>
+    </div>
+  )
+  
+}
 export default Home

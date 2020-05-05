@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Login = () => {
+const Login = () => {    
     return (
         <div>
-            Login Screen !
+            Login Screen
         </div>
     )
 }
