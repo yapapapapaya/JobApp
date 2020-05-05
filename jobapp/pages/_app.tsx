@@ -8,7 +8,7 @@ import Footer from '../src/Footer/Footer'
          super(props)
      }
      render(){
-         console.log('root component');
+         console.log(this.props, 'root component');
          
          return (
             <div>
